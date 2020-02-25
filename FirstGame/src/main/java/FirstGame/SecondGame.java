@@ -32,5 +32,5 @@ public class SecondGame {
                 System.out.println("ты кожаный мешок дерьма, а я победил");
             }
         }
-//        System.out.println("ты кожаный мешок дерьмиа, а я победил");
     }
+
