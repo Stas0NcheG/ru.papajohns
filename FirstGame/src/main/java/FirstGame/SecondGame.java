@@ -29,8 +29,7 @@ public class SecondGame {
         if  (i == 11 && !response.equals("y")) {
             System.out.println("дурить меня удумал, сын собаки?");
         } else {
-                System.out.println("ты кожаный мешок дерьма, а я победил");
-            }
+            System.out.println("ты кожаный мешок дерьма, а я победил");
         }
     }
-
+}

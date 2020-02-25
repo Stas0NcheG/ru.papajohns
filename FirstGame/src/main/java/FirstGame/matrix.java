@@ -28,8 +28,6 @@ public class matrix {
         System.out.println(s);
                     System.out.println(b);
                             System.out.println(c);
-
-
     }
 }
 
