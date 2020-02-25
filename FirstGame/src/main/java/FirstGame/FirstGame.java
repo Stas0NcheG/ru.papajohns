@@ -10,7 +10,6 @@ public class FirstGame {
 
         int num = random.nextInt(100) + 1;
         int i = 1;
-//        System.out.println(num);
         Scanner sc = new Scanner(System.in);
         System.out.println("Димон, где число???");
         int number = sc.nextInt();
