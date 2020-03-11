@@ -1,17 +1,19 @@
 package ru.papajohns;
 
-import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
 public class FirstTest {
     @Test
     public void firstTest() {
-        System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\svsidorov\\IdeaProjects\\testselenium\\drivers\\chromedriver.exe");
 
         ChromeDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -19,7 +21,6 @@ public class FirstTest {
         driver.get("https://www.papajohns.ru/");
         String titel = driver.getTitle();
         System.out.println(titel);
-//        Assert.assertTrue(titel.equals("Меню|Доставка пиццы в Москве"));
 
             WebElement button = driver.findElement(By.xpath("//*[@id=\"HomePage__inner\"]/section/div[1]/div[1]/ul/li[31]/div/div[2]/a"));
             button.click();
